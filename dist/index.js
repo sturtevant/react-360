@@ -919,7 +919,7 @@ var React360Viewer = /*#__PURE__*/function (_Component) {
         }
       }), this.props.boxShadow ? /*#__PURE__*/React.createElement("div", {
         className: "v360-product-box-shadow"
-      }) : '')), /*#__PURE__*/React.createElement("abbr", {
+      }) : '')), this.props.hideButtons ? null : /*#__PURE__*/React.createElement("abbr", {
         title: "Fullscreen Toggle"
       }, /*#__PURE__*/React.createElement("div", {
         className: "v360-fullscreen-toggle text-center",
