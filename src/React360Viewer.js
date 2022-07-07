@@ -426,6 +426,9 @@ class React360Viewer extends Component {
     }
 
     zoomImage = (evt) => {
+        if(this.props.disableScrollZoom)
+            return;
+
         this.setState({ 
             lastX: evt.offsetX || (evt.pageX - this.canvas.offsetLeft),
             lastY: evt.offsetY || (evt.pageY - this.canvas.offsetTop)

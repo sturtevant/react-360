@@ -19,6 +19,7 @@ function App() {
             spinReverse
             autoplay
             buttonClass="dark"
+            disableScrollZoom
           />
         </div>
       </div>
@@ -39,6 +40,7 @@ function App() {
             imagePath="https://scaleflex.cloudimg.io/width/600/q35/https://scaleflex.ultrafast.io/https://scaleflex.airstore.io/demo/chair-360-36"
             fileName="chair_{index}.jpg?v1"
             buttonClass="dark"
+            disableScrollZoom
           />
         </div>
         <div className="col-12 col-md-6 mb-4 card p-0">
@@ -51,6 +53,7 @@ function App() {
             imagePath="https://scaleflex.cloudimg.io/width/600/q35/https://scaleflex.ultrafast.io/https://scaleflex.airstore.io/demo/chair-360-72"
             fileName="chair_{index}.jpg?v1"
             boxShadow
+            disableScrollZoom
           />
         </div>
       </div>
