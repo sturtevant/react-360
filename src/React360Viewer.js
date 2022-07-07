@@ -685,6 +685,7 @@ class React360Viewer extends Component {
                         </div>
                     </abbr>
                     
+                    {this.props.hideButtons ? null : 
                     <div id="v360-menu-btns" className={this.props.buttonClass}>
                         <div className="v360-navigate-btns">
                             <Button 
@@ -715,7 +716,7 @@ class React360Viewer extends Component {
                                 icon="fa fa-sync" 
                             />
                         </div>
-                    </div>
+                    </div>}
                 </div>
             </div>
             

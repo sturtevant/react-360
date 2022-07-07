@@ -54,6 +54,7 @@ function App() {
             fileName="chair_{index}.jpg?v1"
             boxShadow
             disableScrollZoom
+            hideButtons
           />
         </div>
       </div>
