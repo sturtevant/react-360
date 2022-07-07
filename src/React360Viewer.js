@@ -677,13 +677,14 @@ class React360Viewer extends Component {
                         </div>
                     </Hammer>
 
+                    {this.props.hideButtons ? null : 
                     <abbr title="Fullscreen Toggle">
                         <div className="v360-fullscreen-toggle text-center" onClick={this.toggleFullScreen}>
                             <div className={this.props.buttonClass === 'dark' ? 'v360-fullscreen-toggle-btn text-light' : 'v360-fullscreen-toggle-btn text-dark'}>
                                 <i className={!this.state.isFullScreen ? 'fas fa-expand text-lg' : 'fas fa-compress text-lg'}></i>
                             </div>
                         </div>
-                    </abbr>
+                    </abbr>}
                     
                     {this.props.hideButtons ? null : 
                     <div id="v360-menu-btns" className={this.props.buttonClass}>
