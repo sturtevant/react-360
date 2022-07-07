@@ -1,5 +1,8 @@
-# react-360-view
+# react-360-view-extended
 - A Simple and Beautiful 360&deg; Product Viewer built on React
+- Based on [react-360-view](https://github.com/rajeevgade/react-360) by Rajeev R. Gade
+- Adds the ability to disable scroll-triggered Zoom (helpful for preventing unintended zooms on desktop)
+- Adds the ability to hide control buttons
 
 ### [Click here for Vue version](https://github.com/rajeevgade/vue-360)
 
@@ -71,6 +74,8 @@ import ThreeSixty from 'react-360-view'
 | boxShadow | Boolean | Apply Box Shadow Background | Optional | false |
 | buttonClass | String | Apply Styling to Buttons | Optional (light/dark) | light |
 | paddingIndex | Boolean | Apply Leading Zero to Image Index | Optional | false |
+| disableScrollZoom | Boolean | Prevents zoom from scroll events | Optional | false |
+| hideButtons | Boolean | Hides the control buttons | Optional | false |
 
 ## Buttons 
 
@@ -95,6 +100,7 @@ import ThreeSixty from 'react-360-view'
 
 ## Credits
 
+- [react-360-view](https://github.com/rajeevgade/react-360) by Rajeev R. Gade
 - [vue](https://reactjs.org/)
 - [core-js](https://github.com/zloirock/core-js)
 - [Cloud Image](https://www.cloudimage.io/)
